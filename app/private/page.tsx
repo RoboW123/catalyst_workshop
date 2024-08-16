@@ -1,6 +1,6 @@
 'use client'
 import { useState, useEffect } from 'react';
-import { Tables } from '../utils/supabase/server'; // Adjust the path
+import { Tables } from '../utils/types/supabase'; // Adjust the path
 
 type Todo = Tables<'todos'>;
 

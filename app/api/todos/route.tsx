@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { createClient } from '../../app/utils/supabase/server';
-import { Tables, TablesInsert, TablesUpdate } from '../../app/utils/supabase/server';
+import { createClient } from '../../utils/supabase/server';
+import { Tables, TablesInsert, TablesUpdate } from '../../utils/types/supabase';
 
 type Todo = Tables<'todos'>;
 type TodoInsert = TablesInsert<'todos'>;
